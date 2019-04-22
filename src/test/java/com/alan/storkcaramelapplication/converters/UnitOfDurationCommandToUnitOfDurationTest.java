@@ -1,6 +1,7 @@
 package com.alan.storkcaramelapplication.converters;
 
 import com.alan.storkcaramelapplication.commands.UnitOfDurationCommand;
+
 import com.alan.storkcaramelapplication.domain.UnitOfDuration;
 import org.junit.Before;
 import org.junit.Test;

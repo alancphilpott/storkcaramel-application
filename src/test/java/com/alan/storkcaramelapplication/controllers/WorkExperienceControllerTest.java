@@ -23,7 +23,7 @@ public class WorkExperienceControllerTest {
     WorkExperienceController controller;
     MockMvc mockMvc;
     @Mock
-    WorkExperienceService  workExperienceService;
+    WorkExperienceService workExperienceService;
     @Mock
     UnitOfDurationService unitOfDurationService;
     @Before

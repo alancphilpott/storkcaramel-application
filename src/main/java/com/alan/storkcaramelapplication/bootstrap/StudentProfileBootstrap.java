@@ -1,5 +1,6 @@
 package com.alan.storkcaramelapplication.bootstrap;
 
+import abhi.springframework.studentprofileapplication.domain.*;
 import com.alan.storkcaramelapplication.domain.*;
 import com.alan.storkcaramelapplication.repositories.SkillSetRepository;
 import com.alan.storkcaramelapplication.repositories.StudentProfileRepository;

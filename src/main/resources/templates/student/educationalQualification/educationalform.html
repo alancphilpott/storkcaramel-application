@@ -30,7 +30,7 @@
 <div class="container-fluid" style="margin-top: 20px">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <!--/*@thymesVar id="educational" type="abhi.springframework.studentprofileapplication.commands.EducationalQualificationCommand"*/-->
+            <!--/*@thymesVar id="educational" type="com.alan.storkcaramelapplication.commands.EducationalQualificationCommand"*/-->
             <form  th:object="${educational}" th:action="@{'/student/' + ${educational.getStudentProfileId()} + '/educationalQualification'} " method="post">
                 <input type="hidden" th:field="*{id}"/>
                 <div class="pannel-group">

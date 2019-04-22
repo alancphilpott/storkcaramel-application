@@ -1,11 +1,11 @@
 //package abhi.springframework.studentprofileapplication.services;
 //
-//import abhi.springframework.studentprofileapplication.commands.ProjectsCommand;
-//import abhi.springframework.studentprofileapplication.converters.ProjectsCommandToProjects;
-//import abhi.springframework.studentprofileapplication.converters.ProjectsToProjectsCommand;
-//import abhi.springframework.studentprofileapplication.domain.Projects;
-//import abhi.springframework.studentprofileapplication.domain.StudentProfile;
-//import abhi.springframework.studentprofileapplication.repositories.StudentProfileRepository;
+//import ProjectsCommand;
+//import ProjectsCommandToProjects;
+//import ProjectsToProjectsCommand;
+//import Projects;
+//import StudentProfile;
+//import StudentProfileRepository;
 //import org.junit.Before;
 //import org.junit.Test;
 //import org.mockito.Mock;

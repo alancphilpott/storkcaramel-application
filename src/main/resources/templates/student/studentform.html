@@ -27,7 +27,7 @@
     </style>
 </head>
 <body>
-    <!--/*@thymesVar id="student" type="abhi.springframework.studentprofileapplication.domain.StudentProfile"*/-->
+<!--/*@thymesVar id="student" type="com.alan.storkcaramelapplication.domain.StudentProfile"*/-->
     <div class="container-fluid" style="margin-top: 20px">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
@@ -211,7 +211,7 @@
                                         <h1 class="panel-title">Work Experience</h1>
                                     </div>
                                     <div class="col-md-1">
-                                        <!--/*@thymesVar id="student" type="abhi.springframework.studentprofileapplication.domain.StudentProfile"*/-->
+                                        <!--/*@thymesVar id="student" type="com.alan.storkcaramelapplication.domain.StudentProfile"*/-->
                                         <a class="btn btn-default" href="#" th:href="@{'/student/' + ${student.id} + '/workExperiences'}" role="button">Edit</a>
                                     </div>
                                 </div>
@@ -269,7 +269,7 @@
                                         <h1 class="panel-title">Projects</h1>
                                     </div>
                                     <div class="col-md-1">
-                                        <!--/*@thymesVar id="student" type="abhi.springframework.studentprofileapplication.domain.StudentProfile"*/-->
+                                        <!--/*@thymesVar id="student" type="com.alan.storkcaramelapplication.domain.StudentProfile"*/-->
                                         <a class="btn btn-default" href="#" th:href="@{'/student/' + ${student.id} + '/projects'}" role="button">Edit</a>
                                     </div>
                                 </div>

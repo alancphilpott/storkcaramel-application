@@ -1,7 +1,6 @@
 package com.alan.storkcaramelapplication.converters;
 
 import com.alan.storkcaramelapplication.commands.StudentProfileCommand;
-import abhi.springframework.studentprofileapplication.domain.*;
 import com.alan.storkcaramelapplication.domain.*;
 import lombok.Synchronized;
 import org.springframework.core.convert.converter.Converter;
